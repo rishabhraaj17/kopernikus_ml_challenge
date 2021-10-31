@@ -1,0 +1,1957 @@
+{
+    "parameters": {
+        "root_path": "ml-challenge/c23",
+        "dump_path": "ml-challenge/filtered",
+        "min_contour_area": 500,
+        "black_mask": [
+            0,
+            30,
+            0,
+            0
+        ],
+        "gaussian_blur_radius_list": [
+            21
+        ],
+        "duplicate_threshold": 550,
+        "contour_count": 6300
+    },
+    "number_of_duplicates_found": 339,
+    "results": {
+        "c23-1616689078329.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616689120916.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616689163591.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616689206068.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616689163591.png"
+        },
+        "c23-1616689248543.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616689392406.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616689248543.png"
+        },
+        "c23-1616689734969.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616690077367.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616690419647.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616690077367.png"
+        },
+        "c23-1616690762047.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616690077367.png"
+        },
+        "c23-1616691104851.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616690077367.png"
+        },
+        "c23-1616691447373.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616691789971.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616691447373.png"
+        },
+        "c23-1616692132577.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616691447373.png"
+        },
+        "c23-1616692474975.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616691447373.png"
+        },
+        "c23-1616692817457.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616691447373.png"
+        },
+        "c23-1616693159859.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616693502261.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616693159859.png"
+        },
+        "c23-1616693844587.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616693159859.png"
+        },
+        "c23-1616694187388.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616693159859.png"
+        },
+        "c23-1616694529994.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616693159859.png"
+        },
+        "c23-1616694872510.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616695214951.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616694872510.png"
+        },
+        "c23-1616695557277.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616695899479.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616696241920.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616695899479.png"
+        },
+        "c23-1616696584520.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616695899479.png"
+        },
+        "c23-1616696927083.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616695899479.png"
+        },
+        "c23-1616697269599.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616695899479.png"
+        },
+        "c23-1616697612042.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616695899479.png"
+        },
+        "c23-1616697954482.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616695899479.png"
+        },
+        "c23-1616698296964.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616695899479.png"
+        },
+        "c23-1616698639412.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616695899479.png"
+        },
+        "c23-1616698981729.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616695899479.png"
+        },
+        "c23-1616699324009.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616695899479.png"
+        },
+        "c23-1616699666493.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616695899479.png"
+        },
+        "c23-1616700009093.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616695899479.png"
+        },
+        "c23-1616700351574.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616695899479.png"
+        },
+        "c23-1616700693937.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616695899479.png"
+        },
+        "c23-1616701036262.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616695899479.png"
+        },
+        "c23-1616701378864.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616695899479.png"
+        },
+        "c23-1616701721263.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616695899479.png"
+        },
+        "c23-1616702063501.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616695899479.png"
+        },
+        "c23-1616702405906.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616695899479.png"
+        },
+        "c23-1616702748470.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616695899479.png"
+        },
+        "c23-1616703091109.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616695899479.png"
+        },
+        "c23-1616703433669.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616695899479.png"
+        },
+        "c23-1616703776233.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616695899479.png"
+        },
+        "c23-1616704118786.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616704460947.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616704802950.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616705145110.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616705487111.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616705829193.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616706171160.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616706513398.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616706855323.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616707197447.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616707539404.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616707881367.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616708223326.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616708565248.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616708907288.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616709249289.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616709591253.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616709933374.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616710275420.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616710617419.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616710959782.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616711302260.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616711644423.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616711986543.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616712328749.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616712670907.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616713013068.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616713354869.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616713696872.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616714038835.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616714380793.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616714722717.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616715064681.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616715406478.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616715748441.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616716090208.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616716432163.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616716774165.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616717116166.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616717457970.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616717799969.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616718142215.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616718484220.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616718826339.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616719168338.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616719510303.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616719852540.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616720194661.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616720536782.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616720878862.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616721220750.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616721562630.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616721904590.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616722246353.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616722588271.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616722930192.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616723272395.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616723614358.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616723956442.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616724298401.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616724640167.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616724982163.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616725324407.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616725666568.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616726008613.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616726350617.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616726692892.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616727034897.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616727376939.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616727718940.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616728060897.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616728402777.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616728744700.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616729086908.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616729428783.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616729770785.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616730112747.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616730454791.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616730796952.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616731138911.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616731481074.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616731822998.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616732164959.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616732506920.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616732849039.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616704118786.png"
+        },
+        "c23-1616733190960.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616733532844.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616733190960.png"
+        },
+        "c23-1616733875084.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616734217166.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616734559178.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616734901659.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616735243692.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616735585939.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616735243692.png"
+        },
+        "c23-1616735928256.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616735243692.png"
+        },
+        "c23-1616736270779.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616736613222.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616736270779.png"
+        },
+        "c23-1616736955821.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616736270779.png"
+        },
+        "c23-1616737298425.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616736270779.png"
+        },
+        "c23-1616737641105.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616736270779.png"
+        },
+        "c23-1616737983906.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616736270779.png"
+        },
+        "c23-1616738326593.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616738669318.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616739011999.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616739354639.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616739011999.png"
+        },
+        "c23-1616739697123.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616739011999.png"
+        },
+        "c23-1616740039804.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616739011999.png"
+        },
+        "c23-1616740382406.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616739011999.png"
+        },
+        "c23-1616740725376.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616739011999.png"
+        },
+        "c23-1616741068364.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616739011999.png"
+        },
+        "c23-1616741411009.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616739011999.png"
+        },
+        "c23-1616741753772.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616742096570.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616741753772.png"
+        },
+        "c23-1616742439331.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616741753772.png"
+        },
+        "c23-1616742781936.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616741753772.png"
+        },
+        "c23-1616743124616.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616741753772.png"
+        },
+        "c23-1616743467373.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616741753772.png"
+        },
+        "c23-1616743809978.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616741753772.png"
+        },
+        "c23-1616744152499.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616741753772.png"
+        },
+        "c23-1616744495180.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616741753772.png"
+        },
+        "c23-1616744837702.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616745180219.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616744837702.png"
+        },
+        "c23-1616745522905.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616744837702.png"
+        },
+        "c23-1616745865346.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616744837702.png"
+        },
+        "c23-1616746208024.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616746550547.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616746208024.png"
+        },
+        "c23-1616746893069.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616746208024.png"
+        },
+        "c23-1616747235709.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616746208024.png"
+        },
+        "c23-1616747578512.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616746208024.png"
+        },
+        "c23-1616747921272.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616746208024.png"
+        },
+        "c23-1616748263872.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616746208024.png"
+        },
+        "c23-1616748606517.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616746208024.png"
+        },
+        "c23-1616748949116.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616746208024.png"
+        },
+        "c23-1616749291756.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616746208024.png"
+        },
+        "c23-1616749634401.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616746208024.png"
+        },
+        "c23-1616749977119.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616746208024.png"
+        },
+        "c23-1616750319597.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616746208024.png"
+        },
+        "c23-1616750662042.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616751004843.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616750662042.png"
+        },
+        "c23-1616751347603.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616750662042.png"
+        },
+        "c23-1616751690245.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616752033012.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616751690245.png"
+        },
+        "c23-1616752375849.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616751690245.png"
+        },
+        "c23-1616752718571.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616751690245.png"
+        },
+        "c23-1616753061450.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616751690245.png"
+        },
+        "c23-1616753404415.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616751690245.png"
+        },
+        "c23-1616753747054.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616751690245.png"
+        },
+        "c23-1616754089855.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616754432617.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616754775221.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616755117940.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616755460664.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616755803344.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616756146024.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616756488628.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616756831389.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616757173749.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616757516433.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616757173749.png"
+        },
+        "c23-1616757858714.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616757173749.png"
+        },
+        "c23-1616758201275.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616758543833.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616758886475.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616758543833.png"
+        },
+        "c23-1616759229080.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616759571684.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616759914240.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616759571684.png"
+        },
+        "c23-1616760256963.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616760599486.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616760941972.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616761284768.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616761627374.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616761970012.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616762312457.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616762655135.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616762997740.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616763340459.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616763683024.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616763340459.png"
+        },
+        "c23-1616764025665.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616763340459.png"
+        },
+        "c23-1616764368061.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616764710745.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616765053431.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616764710745.png"
+        },
+        "c23-1616765395910.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616765738513.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616766081074.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616766423755.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616766766595.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616766423755.png"
+        },
+        "c23-1616767109317.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616767452161.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616767109317.png"
+        },
+        "c23-1616767794966.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616768137727.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616768480608.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616768823289.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616769166090.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616769508852.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616769851533.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616770194060.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616770536780.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616770879381.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616771222181.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616770879381.png"
+        },
+        "c23-1616771564780.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616770879381.png"
+        },
+        "c23-1616771907305.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616772250108.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616771907305.png"
+        },
+        "c23-1616772592781.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616772935306.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616773277827.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616773620435.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616773277827.png"
+        },
+        "c23-1616773963108.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616774305712.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616774648231.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616774990917.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616775333519.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616775676360.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616776018960.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616776361764.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616776704246.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616777046932.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616777389691.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616777732576.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616778075302.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616778417899.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616778760501.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616778417899.png"
+        },
+        "c23-1616779102902.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616779445544.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616779788339.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616779445544.png"
+        },
+        "c23-1616780130983.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616780473745.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616780130983.png"
+        },
+        "c23-1616780816465.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616781159184.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616781502225.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616781844990.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616781502225.png"
+        },
+        "c23-1616782187710.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616782530072.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616782187710.png"
+        },
+        "c23-1616782872679.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616782187710.png"
+        },
+        "c23-1616783214920.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616782187710.png"
+        },
+        "c23-1616783557196.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616782187710.png"
+        },
+        "c23-1616783899443.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616782187710.png"
+        },
+        "c23-1616784241640.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616782187710.png"
+        },
+        "c23-1616784583888.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616782187710.png"
+        },
+        "c23-1616784926328.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616782187710.png"
+        },
+        "c23-1616785268646.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616782187710.png"
+        },
+        "c23-1616785611207.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616782187710.png"
+        },
+        "c23-1616785953569.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616782187710.png"
+        },
+        "c23-1616786295929.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616782187710.png"
+        },
+        "c23-1616786638297.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616782187710.png"
+        },
+        "c23-1616786980657.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616782187710.png"
+        },
+        "c23-1616787323135.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616782187710.png"
+        },
+        "c23-1616787665582.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616782187710.png"
+        },
+        "c23-1616788008060.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616782187710.png"
+        },
+        "c23-1616788350506.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616782187710.png"
+        },
+        "c23-1616788692826.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616782187710.png"
+        },
+        "c23-1616789035150.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616782187710.png"
+        },
+        "c23-1616789377672.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616782187710.png"
+        },
+        "c23-1616789720272.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616782187710.png"
+        },
+        "c23-1616790062790.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616782187710.png"
+        },
+        "c23-1616790405305.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616790747267.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616790405305.png"
+        },
+        "c23-1616791089592.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616790405305.png"
+        },
+        "c23-1616791431629.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616790405305.png"
+        },
+        "c23-1616791773630.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616790405305.png"
+        },
+        "c23-1616792115757.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616790405305.png"
+        },
+        "c23-1616792457878.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616790405305.png"
+        },
+        "c23-1616792799875.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616790405305.png"
+        },
+        "c23-1616793141959.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616790405305.png"
+        },
+        "c23-1616793484003.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616790405305.png"
+        },
+        "c23-1616793825924.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616790405305.png"
+        },
+        "c23-1616794168087.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616790405305.png"
+        },
+        "c23-1616794509886.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616790405305.png"
+        },
+        "c23-1616794851809.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616790405305.png"
+        },
+        "c23-1616795193849.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616790405305.png"
+        },
+        "c23-1616795535932.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616790405305.png"
+        },
+        "c23-1616795878054.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616790405305.png"
+        },
+        "c23-1616796220131.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616790405305.png"
+        },
+        "c23-1616796561976.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616790405305.png"
+        },
+        "c23-1616796903938.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616790405305.png"
+        },
+        "c23-1616797245979.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616790405305.png"
+        },
+        "c23-1616797588141.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616790405305.png"
+        },
+        "c23-1616797930583.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616790405305.png"
+        },
+        "c23-1616798272625.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616790405305.png"
+        },
+        "c23-1616798614663.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616790405305.png"
+        },
+        "c23-1616798956628.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616790405305.png"
+        },
+        "c23-1616799298911.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616790405305.png"
+        },
+        "c23-1616799641030.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616790405305.png"
+        },
+        "c23-1616799982950.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616790405305.png"
+        },
+        "c23-1616800324912.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616790405305.png"
+        },
+        "c23-1616800667036.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616801009155.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616801351157.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616801009155.png"
+        },
+        "c23-1616801693119.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616801009155.png"
+        },
+        "c23-1616802035000.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616801009155.png"
+        },
+        "c23-1616802377118.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616801009155.png"
+        },
+        "c23-1616802719081.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616801009155.png"
+        },
+        "c23-1616803061085.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616801009155.png"
+        },
+        "c23-1616803403087.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616801009155.png"
+        },
+        "c23-1616803745009.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616801009155.png"
+        },
+        "c23-1616804087131.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616801009155.png"
+        },
+        "c23-1616804429172.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616801009155.png"
+        },
+        "c23-1616804771214.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616801009155.png"
+        },
+        "c23-1616805113177.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616801009155.png"
+        },
+        "c23-1616805455339.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616801009155.png"
+        },
+        "c23-1616805797415.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616801009155.png"
+        },
+        "c23-1616806139538.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616801009155.png"
+        },
+        "c23-1616806481550.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616801009155.png"
+        },
+        "c23-1616806823705.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616801009155.png"
+        },
+        "c23-1616807165627.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616801009155.png"
+        },
+        "c23-1616807507626.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616801009155.png"
+        },
+        "c23-1616807849826.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616801009155.png"
+        },
+        "c23-1616808191946.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616801009155.png"
+        },
+        "c23-1616808534030.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616801009155.png"
+        },
+        "c23-1616808876270.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616801009155.png"
+        },
+        "c23-1616809218514.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616801009155.png"
+        },
+        "c23-1616809560594.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616801009155.png"
+        },
+        "c23-1616809902599.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616801009155.png"
+        },
+        "c23-1616810244560.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616801009155.png"
+        },
+        "c23-1616810586997.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616801009155.png"
+        },
+        "c23-1616810929079.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616801009155.png"
+        },
+        "c23-1616811271324.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616801009155.png"
+        },
+        "c23-1616811613406.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616801009155.png"
+        },
+        "c23-1616811955408.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616812297444.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616812639487.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616812297444.png"
+        },
+        "c23-1616812981329.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616812297444.png"
+        },
+        "c23-1616813323212.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616812297444.png"
+        },
+        "c23-1616813665096.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616812297444.png"
+        },
+        "c23-1616814007092.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616812297444.png"
+        },
+        "c23-1616814349057.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616812297444.png"
+        },
+        "c23-1616814691062.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616812297444.png"
+        },
+        "c23-1616815033103.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616812297444.png"
+        },
+        "c23-1616815375140.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616812297444.png"
+        },
+        "c23-1616815717222.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616812297444.png"
+        },
+        "c23-1616816059387.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616812297444.png"
+        },
+        "c23-1616816401343.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616812297444.png"
+        },
+        "c23-1616816743431.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616812297444.png"
+        },
+        "c23-1616817085591.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616812297444.png"
+        },
+        "c23-1616817427671.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616812297444.png"
+        },
+        "c23-1616817769833.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616812297444.png"
+        },
+        "c23-1616818111873.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616812297444.png"
+        },
+        "c23-1616818453836.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616812297444.png"
+        },
+        "c23-1616818795916.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616812297444.png"
+        },
+        "c23-1616819137915.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616812297444.png"
+        },
+        "c23-1616819479960.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616812297444.png"
+        },
+        "c23-1616819822123.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616812297444.png"
+        },
+        "c23-1616820164042.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616812297444.png"
+        },
+        "c23-1616820506084.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616812297444.png"
+        },
+        "c23-1616820848106.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616821190524.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616821532521.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616821190524.png"
+        },
+        "c23-1616821874527.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616821190524.png"
+        },
+        "c23-1616822216566.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616821190524.png"
+        },
+        "c23-1616822558496.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616822900854.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616822558496.png"
+        },
+        "c23-1616823243332.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616823586175.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616823243332.png"
+        },
+        "c23-1616823928576.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616823243332.png"
+        },
+        "c23-1616824271254.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616823243332.png"
+        },
+        "c23-1616824613779.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616823243332.png"
+        },
+        "c23-1616824956215.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616823243332.png"
+        },
+        "c23-1616825298699.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616823243332.png"
+        },
+        "c23-1616825641143.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616823243332.png"
+        },
+        "c23-1616825983945.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616823243332.png"
+        },
+        "c23-1616826326384.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616823243332.png"
+        },
+        "c23-1616826669072.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616827011752.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616826669072.png"
+        },
+        "c23-1616827354629.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616826669072.png"
+        },
+        "c23-1616827697271.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616826669072.png"
+        },
+        "c23-1616828039794.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616826669072.png"
+        },
+        "c23-1616828382312.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616826669072.png"
+        },
+        "c23-1616828724838.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616826669072.png"
+        },
+        "c23-1616829067716.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616829410436.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616829067716.png"
+        },
+        "c23-1616829753115.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616829067716.png"
+        },
+        "c23-1616830095840.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616830438401.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616830780876.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616831123556.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616831466245.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616831123556.png"
+        },
+        "c23-1616831808801.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616832151406.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616831808801.png"
+        },
+        "c23-1616832493926.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616831808801.png"
+        },
+        "c23-1616832836562.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616833179126.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616832836562.png"
+        },
+        "c23-1616833521886.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616832836562.png"
+        },
+        "c23-1616833864410.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616832836562.png"
+        },
+        "c23-1616834206928.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616832836562.png"
+        },
+        "c23-1616834549526.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616832836562.png"
+        },
+        "c23-1616834892048.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616832836562.png"
+        },
+        "c23-1616835234605.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616835577086.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616835234605.png"
+        },
+        "c23-1616835919569.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616835234605.png"
+        },
+        "c23-1616836262014.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616836604411.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616836946855.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616837289292.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616837631813.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616837289292.png"
+        },
+        "c23-1616837974134.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616837289292.png"
+        },
+        "c23-1616838316655.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616837289292.png"
+        },
+        "c23-1616838659299.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616837289292.png"
+        },
+        "c23-1616839001660.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616839344138.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616839686662.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616839344138.png"
+        },
+        "c23-1616840029102.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616839344138.png"
+        },
+        "c23-1616840371625.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616839344138.png"
+        },
+        "c23-1616840714019.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616841056462.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616841398984.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616841741463.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616842084065.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616842426623.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616842084065.png"
+        },
+        "c23-1616842769103.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616842084065.png"
+        },
+        "c23-1616843111673.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616842084065.png"
+        },
+        "c23-1616843454345.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616843797029.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616843454345.png"
+        },
+        "c23-1616844139469.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616844481947.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616844824512.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616845166910.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616845509393.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616845851873.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616846194431.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616846536992.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616846879470.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616846536992.png"
+        },
+        "c23-1616847222071.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616846536992.png"
+        },
+        "c23-1616847564753.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616847907434.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616848250238.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616848592793.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616848935316.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616849277837.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616849620359.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616849962837.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616850305440.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616849962837.png"
+        },
+        "c23-1616850648042.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616850990558.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616851332961.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616851675482.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1616852018199.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        },
+        "c23-1617050734758.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616852018199.png"
+        },
+        "c23-1617051077160.png": {
+            "is_kept": false,
+            "eliminated_by": "c23-1616852018199.png"
+        },
+        "c23-1617051419440.png": {
+            "is_kept": true,
+            "eliminated_by": null
+        }
+    }
+}

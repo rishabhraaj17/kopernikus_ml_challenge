@@ -1,0 +1,1 @@
+## Programming challenge for Machine Learning / Computer Vision Engineer role
